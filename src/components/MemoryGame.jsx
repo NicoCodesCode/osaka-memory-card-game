@@ -66,7 +66,7 @@ export default function MemoryGame() {
             {state.cards.map((card, index) => (
               <Card
                 key={`${card}-${index}`}
-                imgSource={`./src/assets/${card}.jpg`}
+                imgSource={`/assets/${card}.jpg`}
                 name={card}
                 dispatch={dispatch}
                 state={state}
