@@ -9,7 +9,7 @@ export default function TitleScreen() {
           alt="azumanga daioh logo"
           className="absolute max-w-56 top-8 left-1/2 transform -translate-x-1/2 md:top-8 md:left-4 md:translate-x-0"
         />
-        <h1 className="text-4xl sm:text-5xl font-bold text-center text-daioh-yellow py-2">
+        <h1 className="text-4xl sm:text-5xl font-bold text-center text-daioh-yellow py-2 z-10">
           Osaka Memory Card Game
         </h1>
         <div className="z-10">
