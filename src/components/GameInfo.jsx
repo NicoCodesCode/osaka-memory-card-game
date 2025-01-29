@@ -1,6 +1,6 @@
 export default function GameInfo({ state }) {
   return (
-    <section className="min-w-72 mx-auto flex flex-wrap justify-between sm:w-2/3">
+    <section className="max-w-32 flex flex-wrap justify-center sm:min-w-96 sm:justify-between">
       <p className="text-2xl font-bold text-center text-daioh-yellow">
         {state.allMatchesFound
           ? "All matches found!"
