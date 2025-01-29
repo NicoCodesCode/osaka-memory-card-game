@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export default function TitleScreen() {
   return (
-    <main className="min-w-screen min-h-screen bg-gradient-to-b from-orange-400 to-orange-600 flex justify-center items-center fixed top-0 left-0">
+    <main className="min-w-full min-h-full bg-gradient-to-b from-orange-400 to-orange-600 flex justify-center items-center fixed top-0 left-0">
       <article className="max-w-2/3 mx-auto p-8 flex flex-col gap-8 items-center">
         <img
           src="/assets/azumanga-logo.png"
