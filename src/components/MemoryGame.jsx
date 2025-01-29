@@ -59,7 +59,7 @@ export default function MemoryGame() {
   }, [state.matches]);
 
   return (
-    <main className="min-w-full min-h-full bg-gradient-to-b from-orange-400 to-orange-600 flex justify-center items-center">
+    <main className="min-w-screen min-h-screen bg-gradient-to-b from-orange-400 to-orange-600 flex justify-center items-center">
       <article className="w-5/6 mx-auto p-8 flex flex-col gap-8 items-center">
         {state.cards.length > 0 ? (
           <>
