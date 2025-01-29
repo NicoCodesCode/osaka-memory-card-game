@@ -29,12 +29,12 @@ export default function Card(props) {
       <img
         src={props.imgSource}
         alt="osaka image"
-        className="max-w-24 border border-slate-900 rounded-md cursor-pointer sm:max-w-36"
+        className="max-w-24 border-2 border-slate-300 rounded-md cursor-pointer select-none sm:max-w-36"
       />
       <div
         className={`w-24 h-24 bg-slate-900 text-slate-50 text-2xl border border-slate-900 rounded-md cursor-pointer flex justify-center items-center ${
           isCardShowed ? "hidden" : "flex"
-        } absolute top-0 sm:w-36 sm:h-36 sm:text-4xl`}
+        } absolute top-0 select-none sm:w-36 sm:h-36 sm:text-4xl`}
       >
         ?
       </div>
