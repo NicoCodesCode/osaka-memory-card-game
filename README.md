@@ -10,7 +10,7 @@ Welcome to the **Osaka Memory Card Game**! This is a basic memory card matching 
 
 ## Contributing
 
-I’m actively looking to improve the game! If you’d like to contribute, here’s how you can help:
+If you’d like to contribute, here’s how you can help:
 
 1. Fork the repository.
 2. Create a new branch for your changes.
