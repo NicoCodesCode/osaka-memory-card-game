@@ -60,7 +60,7 @@ export default function MemoryGame() {
 
   return (
     <main className="min-w-screen min-h-screen bg-gradient-to-b from-orange-400 to-orange-600 flex justify-center items-center">
-      <article className="w-5/6 mx-auto p-8 flex flex-col gap-8 items-center">
+      <article className="w-5/6 mx-auto p-8 flex flex-col gap-5 items-center">
         {state.cards.length > 0 ? (
           <>
             <section className="max-w-72 flex flex-wrap justify-center gap-4 sm:max-w-4xl">
